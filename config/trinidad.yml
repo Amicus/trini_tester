@@ -1,0 +1,11 @@
+---
+  port: 3000
+  environment: production
+  jruby_min_runtimes: 1
+  jruby_max_runtimes: 1
+  log: 'INFO'
+  #extensions:
+  #  threaded_resque:
+  #    require: './lib/tasks/resque' # will be required before starting the workers, setup Resque and require the jobs here
+  #    queues:
+  #      '*': 5
